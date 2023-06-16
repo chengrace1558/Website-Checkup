@@ -1,0 +1,76 @@
+body, html {
+  margin: 2px;
+  padding: 0;
+}
+
+/*Main title page picture*/
+
+img {
+	width: 100%;
+	height: 80%;
+	
+}
+
+/*background color for everything*/
+body {
+	background-color: beige;
+}
+
+/*table design*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+html{
+	text-align: center;
+}
+
+h3 {
+	 font-family: Times, Optima, serif;
+}
+
+.list {
+	font-family: Times, Times, serif;
+	text-align: left;
+}
+
+/* toolbar design*/
+.toolbar {
+  background-color: #333;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.toolbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.toolbar a:hover {
+  text-decoration: underline;
+}
+
+body {
+	margin-top: 50px;
+}
+
+
